@@ -1,0 +1,284 @@
+{
+  "flowerlist": [
+    {
+      "category": "Shrubs",
+      "price": 15.99,
+      "instructions": "good flowers ",
+      "photo": "image/1.PNG",
+      "name": "Azalea",
+      "productId": 1
+    },
+    {
+      "category": "Shrubs",
+      "price": 33.99,
+      "instructions": "good flowers  ",
+      "photo": "image/2.PNG",
+      "name": "Tibouchina Semidecandra",
+      "productId": 2
+    },
+    {
+      "category": "Shrubs",
+      "price": 12.99,
+      "instructions": "good flowers,   ",
+      "photo": "image/3.PNG",
+      "name": "Hibiscus",
+      "productId": 3
+    },
+    {
+      "category": "Shrubs",
+      "price": 5.99,
+      "instructions": "good flowers   ",
+      "photo": "image/4.PNG",
+      "name": "Plectranthus",
+      "productId": 4
+    },
+    {
+      "category": "Shrubs",
+      "price": 15.99,
+      "instructions": "good flowers",
+      "photo": "image/5.PNG",
+      "name": "Camellia Japonica",
+      "productId": 5
+    },
+    {
+      "category": "Shrubs",
+      "price": 10.99,
+      "instructions": "good flowers ",
+      "photo": "image/6.PNG",
+      "name": "Bougainvillea Spectabilis",
+      "productId": 6
+    },
+    {
+      "category": "Shrubs",
+      "price": 22.99,
+      "instructions": "good flowers",
+      "photo": "image/7.PNG",
+      "name": "Rosa Burgundy",
+      "productId": 7
+    },
+    {
+      "category": "Shrubs",
+      "price": 22.99,
+      "instructions": "good flowers",
+      "photo": "image/8.PNG",
+      "name": "Rosa Iceberg",
+      "productId": 8
+    },
+    {
+      "category": "Container Plants",
+      "price": 45.99,
+      "instructions": "good flowers",
+      "photo": "image/9.PNG",
+      "name": "Bonsai Tree",
+      "productId": 9
+    },
+    {
+      "category": "Container Plants",
+      "price": 12.99,
+      "instructions": "good flowers",
+      "photo": "image/10.PNG",
+      "name": "Calibrachoa Noa",
+      "productId": 10
+    },
+    {
+      "category": "Container Plants",
+      "price": 14.99,
+      "instructions": "good flowers",
+      "photo": "image/11.PNG",
+      "name": "Cymbidium Aestivum",
+      "productId": 11
+    },
+    {
+      "category": "Container Plants",
+      "price": 4.99,
+      "instructions": "good flowers",
+      "photo": "image/12.PNG",
+      "name": "Brassica Oleracea",
+      "productId": 12
+    },
+    {
+      "category": "Container Plants",
+      "price": 4.99,
+      "instructions": "good flowers",
+      "photo": "image/13.PNG",
+      "name": "Viola Penny Orange Jump Up",
+      "productId": 13
+    },
+    {
+      "category": "Container Plants",
+      "price": 5.99,
+      "instructions": "good flowers",
+      "photo": "image/14.PNG",
+      "name": "Cotula",
+      "productId": 14
+    },
+    {
+      "category": "Container Plants",
+      "price": 4.99,
+      "instructions": "good flowers",
+      "photo": "image/15.PNG",
+      "name": "Pelargonium Peltatum",
+      "productId": 15
+    },
+    {
+      "category": "Container Plants",
+      "price": 3.99,
+      "instructions": "good flowers",
+      "photo": "image/16.PNG",
+      "name": "Pansy Blue Shades",
+      "productId": 16
+    },
+    {
+      "category": "Container Plants",
+      "price": 3.99,
+      "instructions": "good flowers",
+      "photo": "image/1.PNG",
+      "name": "Pansy Yellow with Blotch",
+      "productId": 17
+    },
+    {
+      "category": "Container Plants",
+      "price": 25.99,
+      "instructions": "good flowers",
+      "photo": "image/2.PNG",
+      "name": "Phalaenopsis Purple",
+      "productId": 18
+    },
+    {
+      "category": "Herbaceous Perennials",
+      "price": 5.99,
+      "instructions": "good flowers",
+      "photo": "image/2.PNG",
+      "name": "Dianthus",
+      "productId": 19
+    },
+    {
+      "category": "Herbaceous Perennials",
+      "price": 9.99,
+      "instructions": "good flowers",
+      "photo": "image/3.PNG",
+
+      "name": "Chrysanthemum",
+      "productId": 20
+    },
+    {
+      "category": "Herbaceous Perennials",
+      "price": 7.99,
+      "instructions": "good flowers",
+      "photo": "image/4.PNG",
+      "name": "Armeria Alliacea",
+      "productId": 21
+    },
+    {
+      "category": "Herbaceous Perennials",
+      "price": 6.99,
+      "instructions": "good flowers",
+      "photo": "image/5.PNG",
+
+      "name": "Salvia Splendens",
+      "productId": 22
+    },
+    {
+      "category": "Herbaceous Perennials",
+      "price": 8.99,
+      "instructions": "good flowers",
+      "photo": "image/6.PNG",
+
+      "name": "Agapanthus",
+      "productId": 23
+    },
+    {
+      "category": "Herbaceous Perennials",
+      "price": 5.99,
+      "instructions": "good flowers",
+      "photo": "image/7.PNG",
+
+      "name": "Iris Sibirica",
+      "productId": 24
+    },
+    {
+      "category": "Herbaceous Perennials",
+      "price": 9.99,
+      "instructions": "good flowers",
+      "photo": "image/8.PNG",
+      "name": "Chrysanthemum",
+      "productId": 25
+    },
+    {
+      "category": "Herbaceous Perennials",
+      "price": 10.99,
+      "instructions": "good flowers",
+      "photo": "image/9.PNG",
+      "name": "Senecio Cineraria",
+      "productId": 26
+    },
+    {
+      "category": "Cacti & Succulents",
+      "price": 18.99,
+      "instructions": "good flowers",
+      "photo": "image/10.PNG",
+      "name": "Red Cactus",
+      "productId": 27
+    },
+    {
+      "category": "Cacti & Succulents",
+      "price": 30.99,
+      "instructions": "good flowers",
+      "photo": "image/11.PNG",
+
+      "name": "Aloe Vera",
+      "productId": 28
+    },
+    {
+      "category": "Cacti & Succulents",
+      "price": 20.99,
+      "instructions": "good flowers",
+      "photo": "image/12.PNG",
+
+      "name": "Schlumbergera",
+      "productId": 29
+    },
+    {
+      "category": "Cacti & Succulents",
+      "price": 18.5,
+      "instructions": "good flowers",
+      "photo": "image/13.PNG",
+
+      "name": "Senecio Rowleyanus",
+      "productId": 30
+    },
+    {
+      "category": "Cacti & Succulents",
+      "price": 12.99,
+      "instructions": "good flowers",
+      "photo": "image/14.PNG",
+
+      "name": "Lithops",
+      "productId": 31
+    },
+    {
+      "category": "Cacti & Succulents",
+      "price": 55.99,
+      "instructions": "good flowers",
+      "photo": "image/15.PNG",
+      "name": "Pachycereus Marginatus",
+      "productId": 32
+    },
+    {
+      "category": "Cacti & Succulents",
+      "price": 25.99,
+      "instructions": "good flowers",
+      "photo": "image/16.PNG",
+      "name": "Echinocactus Grusonii",
+      "productId": 33
+    },
+    {
+      "category": "Cacti & Succulents",
+      "price": 16.99,
+      "instructions": "good flowers",
+      "photo": "image/1.PNG",
+      "name": "Opuntia Falcata",
+      "productId": 34
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+.flowers_logo {
+    float: right;}
+    nav ul li a {
+    float: right;}
+    .search {
+    float: left;
+    text-align: right;
+}
+.shopping-cart {
+    float: left;}
+
+    #logo_footer {
+
+        float: right;
+    }
+    footer img {
+
+        float:left;}
+.item {
+float: right;
+
+}
+
+.first_offer {
+margin: 0 auto;
+
+}
+.modal{
+  text-align:right;
+}
+
+
+.offer_one .price {
+
+    text-align: right;
+
+}
+.offer_one h3 {
+
+    text-align: right;
+
+}
+.add-to-cart{
+  margin-right: 30px;
+}
+body {
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: right;
+    background-color: #fff;
+}
+.row{
+
+}
+th{ text-align:right;
+}
+.modal-name{
+  float:right;
+}

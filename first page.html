@@ -1,0 +1,880 @@
+﻿<html>
+<head>
+    <title>ProFlowers</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="normalize.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <script src="jquery.min.js"></script>
+    <link href = "https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css"
+        rel = "stylesheet">
+     <script src = "https://code.jquery.com/jquery-1.10.2.js"></script>
+     <script src = "https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+
+<link href="arabic.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+<header>
+    <nav>
+        <div id="myNav" class="overlay">
+            <a style="font-size:60px;cursor:pointer" onclick="openNav()" class="open_nav">&#9776;
+
+            </a>
+
+        <ul>
+            <li>  <span class="flowers_logo">ProFlowers</span></li>
+
+            <li><a href="">الرئيسية</a></li>
+            <li><a href="">عيد ميلاد</a></li>
+            <li><a href="">بوكيت </a></li>
+            <li><a href="">ورود</a></li>
+            <div class="menu">
+            <li ><a href=""  >الوان</a>
+            </li>
+
+            </div>
+
+            <li><a href="#">التوصيل</a></li>
+            <li><a href=""> تسجيل الدخول</a></li>
+<li>
+            <li style="position:relative;">
+
+             <input type="search" class="form-control-lg search " id="autocomplete" placeholder="بحث &#61442;" >
+             <ul class="list-group" id="result" style="position:absolute; top:65px; width:30%;"></ul>
+            </li>
+
+
+<div class="fa  shopping-cart" data-toggle="modal" data-target="#myModal">
+
+
+    <i class="fas fa-shopping-cart" width="20px" style="margin-left: 8px; margin-top: 8px;"  ></i>
+    <span id="cart-count">0</span>
+
+
+
+</div>
+</li>
+
+
+
+
+
+
+        </ul>
+
+        </div>
+
+    </nav>
+    <div class="">
+
+        <!-- Trigger the modal with a button -->
+
+        <!-- Modal: modalCart -->
+        <div class="modal fade " id="mymodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+             aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <!--Header-->
+                    <div class="modal-header">
+                        <h4 class="modal-name" id="myModalLabel">سلتك</h4>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">×</span>
+                        </button>
+                    </div>
+                    <!--Body-->
+                    <div class="modal-body">
+
+                        <table class="table table-hover table_cart">
+                            <thead>
+                            <tr>
+                                <th> اجمالي السعر</th>
+                                <th>الصور</th>
+                                <th>التفاصيل</th>
+                                <th>السعر</th>
+                                <th>الكمية</th>
+                                <th>#</th>
+
+                            </tr>
+                            </thead>
+                            <tbody id="cart_body">
+
+                            </tbody>
+                        </table>
+
+                    </div>
+                    <!--Footer-->
+                    <div class="modal-footer">
+
+                        <button type="button" class="btn btn-primary"> <span class="badge" id="colPrice">0</span>:اجمالي السعر   </button><br>
+                        <button type="button" class="btn btn-outline-primary " data-dismiss="modal">اغلاق</button>
+                        <button class="btn btn-danger empty-cart">تفريغ السلة</button>
+
+
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <section class="head_img clearfix  text-center ">
+        <img src="img1.jpg" class="head_imgs" id="slider">
+        <section class="head_content " >
+        <h1 style="color:#83aa5b;" >البوكيت حتى الخريف</h1>
+        <button class="btn col-md-8 bg-primary " style="color:white;">متجر مجمع الخريف</button>
+        </section>
+    </section>
+    <div class="col-md-12 text-center" >
+
+
+          <h1 class="clearfix col-md-3 text-center mx-auto mt-5" style="display:block; border-bottom:5px solid #53a0be; padding:10px;">
+              الورود الجديدة
+          </h1>
+    </div>
+<section class=" wrapper">
+
+    <section class="first_offer items col-md-11 container mx-auto clearfix" id="first-offer">
+
+
+<div class="clearfix">
+
+</div>
+        <section class="offer_one item col-md-3">
+            <img src="img2.webp" name="image">
+            <img src="selected.png" class="selected">
+            <h3 name="details">The FTD® You're Special Bouquet</h3>
+            <span class="price" name="price">
+                 $50-$10000
+             </span>
+            <span class="vase" name="vase">150 vase option</span>
+            <button class="add-to-cart" >Add To  Cart</button>
+        </section>
+        <section class="offer_one item col-md-3">
+            <img src="img2.webp">
+            <div>
+            <img src="selected.png" class="selected">
+            </div>
+            <h3>The FTD® You're Special Bouquet</h3>
+            <span class="price">
+                 $50-$100
+             </span>
+            <span class="vase">10 vase option</span>
+            <button class="add-to-cart">Add To  Cart</button>
+        </section>
+        <section class="offer_one item col-md-3">
+            <img src="img2.webp" name="image">
+            <img src="selected.png" class="selected">
+            <h3 name="details">The FTD® You're Special Bouquet</h3>
+            <span class="price" name="price">
+                 $50-$100
+             </span>
+            <span class="vase" name="vase">10 vase option</span>
+            <button class="add-to-cart">Add To  Cart</button>
+        </section>
+        <section class="offer_one item col-md-3">
+            <img src="img3.webp">
+            <img src="selected.png" class="selected">
+            <h3>The FTD® You're Special Bouquet</h3>
+            <span class="price">
+                 $50-$100
+             </span>
+            <span class="vase">10 vase option</span>
+            <button class="add-to-cart">Add To  Cart</button>
+        </section>
+        <section class="offer_one item col-md-3">
+            <img src="img3.webp">
+            <img src="selected.png" class="selected">
+            <h3>The FTD® You're Special Bouquet</h3>
+            <span class="price">
+                 $50-$100
+             </span>
+            <span class="vase">10 vase option</span>
+              <button class="add-to-cart">Add To  Cart</button>
+        </section>
+        <section class="offer_one item col-md-3">
+            <img src="img3.webp">
+            <img src="selected.png" class="selected">
+            <h3>The FTD® You're Special Bouquet</h3>
+            <span class="price">
+                 $50-$100
+             </span>
+            <span class="vase">10 vase option</span>
+              <button class="add-to-cart">Add To  Cart</button>
+        </section>
+        <section class="offer_one item col-md-3">
+            <img src="img4.webp">
+            <img src="selected.png" class="selected">
+            <h3>The FTD® You're Special Bouquet</h3>
+            <span class="price">
+                 $50-$100
+             </span>
+            <span class="vase">10 vase option</span>
+              <button class="add-to-cart">Add To  Cart</button>
+        </section>
+        <section class="offer_one item col-md-3">
+            <img src="img4.webp">
+            <img src="selected.png" class="selected">
+            <h3>The FTD® You're Special Bouquet</h3>
+            <span class="price">
+                 $50-$100
+             </span>
+            <span class="vase">10 vase option</span>
+              <button class="add-to-cart">Add To  Cart</button>
+        </section>
+        <section class="offer_one item col-md-3">
+            <img src="img4.webp">
+            <img src="selected.png" class="selected">
+            <h3>The FTD® You're Special Bouquet</h3>
+            <span class="price">
+                 $50-$100
+             </span>
+            <span class="vase">10 vase option</span>
+            <button class="add-to-cart">Add To  Cart</button>
+        </section>
+
+
+
+    </section>
+    <section class="mx-auto mb-5 p-3 text-center">
+    <div id="loadMore" style="  " class="btn btn-primary col-md-4  loadMore">
+          <a href="#" style="color:#fff;">Load More</a>
+        </div>
+      </section>
+    <section class="second_offer">
+        <section class="offer_tow">
+
+            <h3>Fall Wreaths</h3>
+            <button>SHOP ALL</button>
+        </section>
+        <section class="offer_three">
+            <h3>Fall Centerpieces</h3>
+            <button>SHOP ALL</button>
+        </section>
+    </section>
+
+    <section class="third_offer ">
+      <div class="col-md-12 text-center" >
+
+
+            <h1 class="clearfix col-md-3 text-center mx-auto mt-5" style="display:block; border-bottom:5px solid #53a0be; padding:10px;">
+              الزهور العتيقة
+            </h1>
+      </div>
+      <section class=" m-2 mx-auto">
+
+
+        <section class="offer_four col-md-2">
+            <img src="img12.webp">
+            <a href="#">BirthDay</a>
+        </section>
+
+        <section class="offer_four col-md-2">
+            <img src="img12.webp">
+            <a href="#">BirthDay</a>
+        </section>
+
+        <section class="offer_four col-md-2">
+            <img src="img8.webp">
+            <a href="#">BirthDay</a>
+        </section>
+
+        <section class="offer_four col-md-2">
+            <img src="img9.webp">
+            <a href="#">BirthDay</a>
+        </section>
+
+        <section class="offer_four col-md-2">
+            <img src="img10.webp">
+            <a href="#">BirthDay</a>
+        </section>
+
+
+</section>
+    </section>
+
+</section>
+
+<footer>
+
+
+         <span class="flowers_logo " id="logo_footer" >ProFlowers</span>
+
+<section class="s_footer">
+    <img src="twitter.png">
+    <img src="instagram.png">
+    <img src="youtube.png">
+    <img src="facebook%20(1).png">
+</section>
+    <span class="copy_right">ALL COPY RIGHT @<span class="copy_flowers">FLOWERS </span></span>
+
+
+</footer>
+
+
+<script>
+
+
+
+    var prevScrollpos = window.pageYOffset;
+    window.onscroll = function() {
+        var currentScrollPos = window.pageYOffset;
+        if (prevScrollpos > currentScrollPos) {
+            document.getElementById("myNav").style.top = "0";
+        } else {
+            document.getElementById("myNav").style.top = "-150px";
+        }
+        prevScrollpos = currentScrollPos;
+    }
+
+    function openNav() {
+        var x = document.getElementById("myNav");
+        if (x.className === "overlay") {
+            x.className += " responsive";
+        } else {
+            x.className = "overlay";
+        }
+    }
+</script>
+
+
+<script>
+
+
+    var images=["img1.jpg","image/logo.webp"];
+    var num=0;
+    var i=0;
+    slid(i);
+      function slid() {
+
+        var slider=document.getElementById("slider");
+
+       if (i > images.length-1) {i = 0}
+
+       slider.src=images[i];
+
+        i++;
+
+        setTimeout(slid, 2000);
+
+    }
+
+
+
+    </script>
+    <script>
+        const CART = {
+            KEY: "asfklaksfadllFEmgaDEdjfg",
+            contents: [],
+            init(){
+                //check localStorage and initialize the contents of CART.contents
+
+                let _contents = localStorage.getItem(CART.KEY);
+
+                if(_contents){
+                    CART.contents = JSON.parse(_contents);
+                    CART.sync();
+
+                }else{
+                    //dummy test data
+
+
+                    //dummy test data
+
+
+
+                    CART.sync();
+
+                }
+            },
+            async sync(){
+                let _cart = JSON.stringify(CART.contents);
+                await localStorage.setItem(CART.KEY, _cart);
+                var count = document.getElementById('cart-count');
+                count.innerText = CART.contents.length;
+showCart();
+            },
+            find(productId){
+
+                //find an item in the cart by it's productId
+                let match = CART.contents.filter(item=>{
+
+                    if(item.productId == productId)
+                        return true;
+                });
+                if(match && match[0])
+                    return match[0];
+            },
+            add(productId){
+
+                //add a new item to the cart
+                //check that it is not in the cart already
+                if(CART.find(productId)){
+
+                    CART.increase(productId, 1);
+                }else{
+              console.log(PRODUCTS);
+                    let arr = PRODUCTS.filter(product=>{
+                        if(product.productId == productId){
+                            return true;
+                        }
+                    });
+                    if(arr && arr[0]){
+                        let obj = {
+                            productId: arr[0].productId,
+                            name: arr[0].name,
+                            photo: arr[0].photo,
+                            qty: 1,
+                            instructions:arr[0].instructions,
+                            category:arr[0].category,
+                            price: arr[0].price
+                        };
+                        CART.contents.push(obj);
+                        //update localStorage
+                        CART.sync();
+                    }else{
+                        //product productId does not exist in products data
+                        console.error('Invalid Product');
+                    }
+                }
+            },
+            increase(productId, qty=1){
+                //increase the quantity of an item in the cart
+                CART.contents = CART.contents.map(item=>{
+                    if(item.productId === productId)
+                        item.qty = item.qty + qty;
+                    return item;
+                });
+                //update localStorage
+                CART.sync()
+            },
+            reduce(productId, qty=1){
+                //reduce the quantity of an item in the cart
+                CART.contents = CART.contents.map(item=>{
+                    if(item.productId === productId)
+                        item.qty = item.qty - qty;
+                    return item;
+                });
+                CART.contents.forEach(async item=>{
+                    if(item.productId === productId && item.qty === 0)
+                        await CART.remove(productId);
+                });
+                //update localStorage
+                CART.sync()
+            },
+            remove(productId){
+                //remove an item entirely from CART.contents based on its productId
+                CART.contents = CART.contents.filter(item=>{
+                    if(item.productId !== productId)
+                        return true;
+                });
+                //update localStorage
+                CART.sync()
+            },
+            empty(){
+                //empty whole cart
+                CART.contents = [];
+                //update localStorage
+                CART.sync()
+
+            },
+            sort(field='name'){
+                //sort by field - name, price
+                //return a sorted shallow copy of the CART.contents array
+                let sorted = CART.contents.sort( (a, b)=>{
+                    if(a[field] > b[field]){
+                        return 1;
+                    }else if(a[field] < a[field]){
+                        return -1;
+                    }else{
+                        return 0;
+                    }
+                });
+                return sorted;
+                //NO impact on localStorage
+            },
+            logContents(prefix){
+                console.log(prefix, CART.contents)
+            }
+        };
+
+        let PRODUCTS = [];
+
+        document.addEventListener('DOMContentLoaded', ()=>{
+
+            //when the page is ready
+            getProducts( showProducts, errorMessage );
+            //get the cart items from localStorage
+            CART.init();
+            //load the cart items
+            showCart();
+            //Set counter for carousel-item
+
+
+
+
+        });
+
+
+
+
+
+
+
+
+
+
+function colectPrice(){
+    let s = CART.sort('qty');
+    var coun=0;
+    s.forEach( item =>{
+      coun+=item.price*item.qty;
+    })
+    return coun;
+}
+
+
+
+
+
+        function showCart(){
+
+            let s = CART.sort('qty');
+$("#cart_body").html('');
+            s.forEach( item =>{
+            console.log(item);
+              var txt5 =$("<tr></tr>",{
+              'class':'cart-row'});
+              var txt1= document.createElement("td");
+              var txt6= document.createElement("td");
+              $("<button></button>", {
+              'class': 'btn btn-danger decrecCart ',
+              text: '-',
+              'data-productId':item.productId,
+
+
+              }).appendTo(txt6);
+
+              $("<button></button>", {
+              'class': 'btn btn-primary add-to-cart',
+              text: '+',
+              'data-productId':item.productId,
+
+
+              }).appendTo(txt6);
+
+
+              var image=document.createElement("img");
+              image.src=item.photo;
+              image.style.cssText="width:100px;height:100px;";
+              txt1.append(image);
+              var txt2= document.createElement("td");
+              txt2.append( item.name);
+              var txt3= document.createElement("td");
+              txt3.append(item.price);
+              var txt33= document.createElement("td");
+              var col=item.price*item.qty;
+              txt33.append(col);
+              var txt4= document.createElement("td");
+              txt4.append( item.qty);
+              txt5.append(txt33);
+              txt5.append(txt1);
+              txt5.append(txt2);
+              txt5.append(txt3);
+
+              txt5.append(txt4);
+              txt5.append(txt6);
+
+
+              $("table").append( txt5);
+
+
+
+            });
+            var colPrice=document.getElementById('colPrice');
+            colPrice.innerText=colectPrice();
+            console.log(colectPrice());
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        function incrementCart(ev){
+            ev.preventDefault();
+            let productId = parseInt(ev.target.getAttribute('data-productId'));
+
+            CART.increase(productId, 1);
+            let controls = ev.target.parentElement;
+            let qty = controls.querySelector('span:nth-child(2)');
+            let item = CART.find(productId);
+            if(item){
+                qty.textContent = item.qty;
+            }else{
+                document.getElementById('cart_body').removeChild(controls.parentElement);
+            }
+        }
+$(document).on('click', '.decrecCart',function(){
+
+
+
+
+
+
+
+            let productId = parseInt(this.getAttribute('data-productId'));
+
+            CART.reduce(productId, 1);
+
+            let controls = this.parentElement.parentElement;
+
+            let qty = controls.querySelector('td:nth-child(4)');
+
+            let item = CART.find(productId);
+
+            if(item){
+                qty.textContent = item.qty;
+            }else{
+
+                this.parentElement.parentElement.remove();
+            }
+        });
+
+        function getProducts(success, failure){
+            //request the list of products from the "server"
+            const URL = "flowers1.json";
+            fetch(URL)
+            .then(response=>response.json())
+            .then(showProducts)
+            .catch(err=>{
+                errorMessage(err.message);
+            });
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//
+
+
+        function showProducts( products ){
+
+            PRODUCTS = products;
+            //take data.products and display inside <section productId="products">
+            var list=$("#first-offer");
+
+            list.html('');
+
+var row =[];
+var c=-1;
+            for (i in products){
+
+
+
+if (i%3==0 && i==0) {
+
+  c++;
+   row[c]= $("<div></div>", {
+   'class': 'row justify-content-around mt-5 mb-5 moreBox'
+
+ }).appendTo(list);
+
+
+}
+else if(i%3==0) {
+  c++;
+   row[c]= $("<div></div>", {
+   'class': 'row justify-content-around mt-5 mb-5 moreBox',
+   'style':'display:none;'
+ }).appendTo(list);
+}
+
+            var temp=' <section class="offer_one item col-md-3 text-center float-right m-1 " >\n' +
+                '            <img src="'+products[i].photo+'" name="image">\n' +
+                '            <img src="selected.png" class="selected">\n' +
+                '            <h3 name="details">'+products[i].name+'</h3>\n' +
+                '            <span class="price" name="price">\n' +
+                '               '+products[i].price+'\n' +
+                '             </span>\n' +
+                '            <span class="vase" name="vase">'+products[i].instructions+'</span>\n' +
+                '            <button class="add-to-cart" data-productId="'+products[i].productId+'" >Add To  Cart</button>\n' +
+                '        </section>';
+            row[c].html(row[c].html()+temp);
+
+
+
+            }
+        }
+
+
+
+
+// to add filtere search
+
+  $(document).ready(function(){
+   $.ajaxSetup({ cache: false });
+
+   $('#autocomplete').keyup(function(){
+    $('#first-offer').html('');
+      $('#result').html("");
+
+    var searchField = $('#autocomplete').val();
+
+    var expression = new RegExp(searchField, "i");
+    $.getJSON('flowers1.json', function(data) {
+     $.each(data, function(key, value){
+      if (value.name.search(expression) != -1 || value.category.search(expression) != -1 )
+      {
+
+$('#result').append('<li class="list-group-item link-class"><img src="'+value.photo+'" height="40" width="40" class="img-thumbnail" /> '+' | <span class="text-muted">'+value.name+' </span> | <span class="text-muted">'+value.price+' </span>| <span class="text-muted">'+value.instructions+'</span>| <span class="text-muted">'+value.productId+'</span></li>');
+
+
+      }
+
+      else {
+
+        getProducts( showProducts, errorMessage );
+      }
+      if ( searchField =="") {
+        getProducts( showProducts, errorMessage );
+        $('#result').html("");
+      }
+     });
+    });
+   });
+
+   $('#result').on('click', 'li', function() {
+
+    var click_text = $(this).find('span').eq(0).text();
+    $('#autocomplete').val($.trim(click_text));
+    $('#result').html("");
+    $("#first-offer").html('');
+    var img=$(this).find('img').attr('src');
+    var name=$(this).find('span').eq(0).text();
+    var price=$(this).find('span').eq(1).text();
+    var instructions=$(this).find('span').eq(2).text();
+    var productId=$(this).find('span').eq(3).text();
+
+    $('#first-offer').append('<section class="offer_one item col-md-3 text-center  m-1 " >\n' +
+        '            <img src="'+img+'" name="image">\n' +
+        '            <img src="selected.png" class="selected">\n' +
+        '            <h3 name="details">'+name+'</h3>\n' +
+        '            <span class="price" name="price">\n' +
+        '               '+price+'\n' +
+        '             </span>\n' +
+        '            <span class="vase" name="vase">'+instructions+'</span>\n' +
+        '            <button class="add-to-cart" data-productId="'+productId+'" >Add To  Cart</button>\n' +
+        '        </section>');
+
+   });
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+$(document).on('click','.empty-cart',function(){
+
+  CART.empty();
+})
+
+
+
+
+$(document).on('click', '.add-to-cart',  function addItem(){
+
+
+            let productId = parseInt( this.getAttribute('data-productId'));
+            console.log('add to cart item', productId);
+            CART.add(productId, 1);
+            showCart();
+        });
+
+
+        function errorMessage(err){
+            //display the error message to the user
+            console.error(err);
+        }
+    </script>
+
+<script >
+$( document ).ready(function () {
+  $(".moreBox").slice(0, 1).show();
+
+    $("#loadMore").on('click', function (e) {
+      e.preventDefault();
+      $(".moreBox:hidden").slice(0, 1).slideDown();
+      if ($(".moreBox:hidden").length == 0) {
+        $("#loadMore").fadeOut('slow');
+      }
+    });
+  });
+
+</script>
+<script src='jquery.min.js'></script>
+<script src='jquery-ui.min.js'></script>
+<script  src="selected.js"></script>
+
+</body>
+
+
+
+</html>

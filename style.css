@@ -1,0 +1,832 @@
+﻿
+
+
+
+
+
+
+
+
+
+body {
+    /* background-image: url('logo.png');
+     background-repeat: no-repeat;*/
+     background-color:#ffffff;
+     text-align:right;
+
+
+}
+
+
+
+.head_imgs{
+  clear:both;
+width: 80%;
+    height: 460px;
+    box-sizing: border-box;
+    display: block;
+    font-family: Work Sans,sans-serif;
+    position: relative;
+    top: 55px;
+    left: 10%;
+}
+
+
+.head_img h1{
+    margin-bottom:30px ;
+    color: #ffffff;
+    font-size: 4.5em;
+    text-align: center;
+    cursor: pointer;
+
+
+}
+.head_img button{
+
+    margin-top: 30px;
+    margin-left:85px;
+    text-align: center;
+    display: inline-block;
+    height: 50px;
+    width: 400px;
+    cursor: pointer;
+    border: none;
+    color: #fff;
+    background-color: #026aa7;
+
+    box-shadow: inset 0 -4px rgba(0, 0, 0, 0.2);
+}
+
+.head_img button:hover{
+
+
+  box-shadow: inset 0 -4px 0 0 rgba(0, 0, 0, 0.6) 0 0 8px 0 rgba(0,0,),0.5 ;
+
+}
+.head_img button:focus{
+
+
+  box-shadow: inset 0 3px 5px 0 rgba(0, 0, 0, 0.2);
+
+}
+.head_content{
+position: absolute;
+    top:30%;
+    left: 30%;
+
+}
+.overlay {
+
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+
+    border-bottom: 5px solid #53a0be  ;
+}
+
+nav {
+
+    overflow: hidden;
+    background-color: #ffffff;
+color:#333;
+    border-radius: 1px;
+    -webkit-border-radius: 1px;
+
+
+
+
+
+}
+nav ul{
+
+}
+
+nav ul li {
+
+
+
+    display: block;
+
+}
+
+nav ul li a {
+    float: left;
+
+    font-family: Work Sans,sans-serif;
+    text-decoration: none;
+
+font-weight: bold;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+
+
+
+
+
+}
+
+
+
+nav ul li a:hover {
+    border-radius: 2px ;
+    background-color: #ddd;
+    opacity: 0.8;
+    color: black;
+    animation: Nav;
+    animation-duration: 3s;
+    animation-delay: 0s;
+    transition-duration: 1s;
+    text-decoration: none;
+}
+
+.sub_menu {
+    overflow: hidden;
+    background-color: #333;
+    margin: 5px 4%;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    display: none;
+    position: absolute;
+
+    top: 66px;
+    left: 31%;
+
+
+    z-index: 1;
+
+}
+
+.sub_menu a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+
+
+}
+
+.menu {
+
+
+
+
+}
+
+.sub_menu a {
+    clear: both;
+
+}
+
+.menu:hover .sub_menu {
+
+    display: block;
+}
+
+
+
+.flowers_logo{
+    color: #83aa5b;
+    float: left;
+    font-family: Work Sans,sans-serif;
+    font-size: 2rem;
+    line-height: 1.6;
+    margin-right: 10px;
+}
+
+
+
+
+
+.mid {
+    border-top: cornflowerblue inset 5px;
+    clear: both;
+
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    background-color: blanchedalmond;
+    margin: 20px;
+}
+
+.right_aside .mid img {
+    float: left;
+    width: 35%;
+    height: 100px;
+}
+
+.right_aside .bottom {
+    border-top: cornflowerblue inset 5px;
+}
+
+
+.first_offer{
+    clear: both;
+
+    margin-left: 13%;
+}
+.first_offer h2{
+    text-align: center;
+    font-size: 3em;
+    text-shadow: 2px 2px #ca9271 ;
+
+}
+.offer_one{
+  position: relative;
+    float: left;
+
+
+
+
+    padding: 5px;
+
+
+
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.offer_one:hover{
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.8), 0 12px 40px 0 rgba(0, 0, 0, 0.9);
+}
+.offer_one:hover button{
+    visibility: visible;
+}
+.offer_one img{
+    width: 100%;
+}
+.offer_one h3{
+    font-size: 1.25rem;
+    line-height: 1.3;
+    font-weight: 500;
+    text-align: left;
+    cursor: pointer;
+    display: block;
+}
+
+.offer_one .price{
+    display: block;
+    color: rgb(93, 129, 49);
+    font: bold 15px "Work Sans", sans-serif;
+
+    text-align: left;
+    cursor: pointer;
+}
+.offer_one .vase{
+    display: block;
+    justify-content: center;
+    color: rgb(94, 110, 116);
+    font: 600 15px "Work Sans", sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+.offer_one button{
+    visibility: hidden;
+    width: 90%;
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+    left: 9px;
+    margin-bottom: 10px;
+
+    font-size: .875rem;
+    letter-spacing: .04375rem;
+    padding: 18px 27px;
+    color: #fff;
+    background-color: #007cad;
+    height: 50px;
+    border: none;
+}
+.offer_one button:hover{
+    background-color: #025cad;
+}
+.selected{
+  position: absolute;
+  top: 125px;
+  left: 10px;
+  height: 70px;
+
+display: none;
+  transform: rotate(-50deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.second_offer{
+
+    height: 450px;
+
+    clear: both;
+}
+.offer_tow{
+position: relative;
+    float: left;
+    background-image: url("img15.webp");
+    background-size: cover;
+    width: 50%;
+    height: 100%;
+}
+
+
+.offer_three{
+    position: relative;
+    width: 50%;
+    float: right;
+    background-image: url("img16.webp");
+    background-size: cover;
+    height: 100%;
+
+}
+
+.offer_tow button, .offer_three button{
+    position: absolute;
+    top:60%;
+    margin-left: 30%;
+    cursor: pointer;
+    left: 9px;
+    margin-bottom: 10px;
+
+    font-size: .875rem;
+    letter-spacing: .04375rem;
+    padding: 18px 27px;
+    color: #fff;
+    background-color: #007cad;
+    height: 45px;
+    width: 200px;
+    border-radius: 5px;
+    border: none;
+
+}
+.offer_tow button:hover, .offer_three button:hover{
+    background-color: #0651ad;
+
+}
+
+
+.offer_tow h3,.offer_three h3{
+    position: absolute;
+    top:30%;
+    margin-left: 23%;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 3.4em;
+}
+
+.third_offer{
+    margin-left: 10%;
+    margin-bottom: 200px;
+}
+.third_offer h2{
+    text-align: center;
+    font-size: 2.5em;
+    text-shadow: 2px 2px #ca9271 ;
+
+}
+.offer_four{
+    float: left;
+
+    width: auto;
+    height: auto;
+    text-align: center;
+    margin: 10px;
+}
+.offer_four img{
+    width: 160px;
+    display: block;
+}
+.offer_four a{
+    text-decoration: none;
+    color: #378aaa;
+    font-weight: bold;
+}
+
+
+footer{
+
+    position: relative;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    clear: both;
+    display: block;
+    overflow: auto;
+    text-align: center;
+    border-top: 5px solid #53a0be  ;
+}
+footer ul{
+
+
+
+
+}
+#logo_footer{
+    display: block;
+    clear: both;
+    margin: 10px;
+    float: left;
+}
+footer ul li{
+    display:inline-block;
+float: left;
+
+
+}
+footer ul li a{
+   margin: 12px;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: bold;
+
+
+}
+footer img{
+    width: 40px;
+    height: 40px;
+    float: right;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.copy_right{
+
+    font-size: 1em;
+    font-weight: bold;
+    color: #fff;
+    clear: both;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+
+}
+.copy_flowers{
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.open_nav{
+    display: none;
+}
+.closebtn{
+    display: none;
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+.shopping-cart {
+  float: right;
+    display: inline-block;
+   position: relative;
+   background: white;
+   opacity: 0.8;
+    width: 45px;
+    height: 45px;
+    margin: 10px 30px 0 0;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 50%;
+
+}
+.shopping-cart:hover .table_cart{
+    visibility: visible;
+
+}
+
+@media screen and (max-width: 600px) {
+
+    .overlay a {display: none;}
+    .overlay a.open_nav{
+        float: right;
+        display: block;
+        margin-top: 10px;
+        color: #8BC34A;
+        font-size: 9em;
+    }
+
+
+    .head_img{
+        width: 100%;
+    }
+
+    .head_content  {
+        top: 70px;
+        left: 0px;
+    }
+    .head_img h1{
+        font-size: 33px;
+        margin-left: 60px;
+    }
+    .head_content button{
+margin-left: 45px;
+        width: 95%;
+        font-size: 15px;
+        position: absolute;
+        left: 0;
+        top: 100px;
+    }
+.first_offer h2{
+    font-size: 2em;
+}
+.offer_one{
+
+    display: block;
+    margin-left: 0;
+  max-height: 320px;
+    font-size: 1em;
+    overflow: hidden;
+
+}
+    .offer_one img{
+
+      max-height: 250px;
+
+
+    }
+    .offer_one button{
+        margin-left: 10px;
+        width: 80%;
+        height: 60px;
+
+
+
+    }
+    .offer_one h3{
+
+        font-size: 10px;
+
+
+    }
+    .price{
+        font-size: 8px;
+    }
+    .vase{
+        font-size: 8px;
+    }
+.offer_tow{
+    position: relative;
+    float: none;
+    display: block;
+width: 100%;
+    margin-bottom: 5px;
+}
+
+
+    .offer_three{
+
+        margin-top: 5px;
+
+        display: block;
+    width: 100%;}
+
+
+
+
+
+    .offer_tow h3,.offer_three h3{
+
+        top:30%;
+        margin-left: 19%;
+        cursor: pointer;
+        color: #ffffff;
+        font-size: 2.4em;
+    }
+    .second_offer{
+        position: relative;
+
+    }
+    .third_offer{
+        clear: both;
+    }
+    .third_offer h2{
+        clear: both;
+float: none;
+        display: block;
+
+    }
+    .offer_four image{
+
+      margin: 0;
+
+    }
+    footer{
+        height: 150px;
+    }
+.flowers_logo{
+
+    float: left;
+
+}
+.copy_right{
+    font-size: 15px;
+    clear: both;
+    text-align: left;
+ margin-top: 40px;
+    margin-right: 60px;
+    float: none;
+    display: block;
+}
+.s_footer{
+
+    float: right;
+
+}
+.shopping-cart{
+  float: left;
+  margin-left: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+@media screen and (max-width: 600px) {
+    .overlay.responsive {position: relative;}
+    .overlay.responsive .icon {
+
+    }
+    .overlay.responsive a {
+
+        float: none;
+        display: block;
+        text-align: center;
+        margin-right: 20px;
+
+        clear: both;
+        border-bottom: 1px #fff solid;
+
+    }
+    .overlay.responsive .open_nav {
+        float:right;
+        display: block;
+        text-align: left;
+
+    }
+
+
+    .overlay.responsive  .flowers_logo{
+        position: absolute;
+        top: 20px;
+        left: 20px;
+
+    }
+
+}
+
+
+
+th, td {
+    padding: 8px;
+    text-align: right;
+    border-bottom: 1px solid #ddd;
+}
+
+.search{
+
+    float: right;
+  background: white;
+  opacity: 0.8;
+text-align:right;
+  margin: 10px 10px 0 0;
+
+}
+
+
+
+
+.search::-webkit-input-placeholder {
+    font-family: FontAwesome;
+    font-weight: normal;
+    overflow: visible;
+    vertical-align: top;
+    display: inline-block !important;
+    padding-left: 5px;
+    padding-top: 2px;
+    color: hsl(9, 40%, 60%);
+
+}
+
+.search::-moz-placeholder  {
+    font-family: FontAwesome;
+    font-weight: normal;
+    overflow: visible;
+    vertical-align: top;
+    display: inline-block !important;
+    padding-left: 5px;
+    padding-top: 2px;
+    color: hsl(9, 40%, 60%);
+}
+
+.search:-ms-input-placeholder  {
+    font-family: FontAwesome;
+    font-weight: normal;
+    overflow: visible;
+    vertical-align: top;
+    display: inline-block !important;
+    padding-left: 5px;
+    padding-top: 2px;
+    color: hsl(9, 40%, 60%);
+}
+.moreBox{
+  display: none;
+}
+
+
+#result {
+ position: absolute;
+ width: 100%;
+ max-width:870px;
+ cursor: pointer;
+ overflow-y: auto;
+ max-height: 400px;
+ box-sizing: border-box;
+ z-index: 1001;
+}
+.link-class:hover{
+ background-color:#f1f1f1;
+}
+.add-to-cart{
+  color: #fff;
+  background-color: #026aa7;
+
+  box-shadow: inset 0 -4px rgba(0, 0, 0, 0.2);
+}
+.add-to-cart:hover{
+box-shadow: inset 0 -4px 0 0 rgba(0, 0, 0, 0.6) 0 0 8px 0 rgba(0,0,),0.5 ;
+}
+.add-to-cart:focus{
+box-shadow: inset 0 3px 5px 0 rgba(0, 0, 0, 0.2);
+}
+.loadMore{
+  font-weight: bold;
+
+  box-shadow: inset 0 -4px rgba(0, 0, 0, 0.2);
+}
+.loadMore:hover {
+box-shadow: inset 0 -4px 0 0 rgba(0, 0, 0, 0.6) 0 0 8px 0 rgba(0,0,),0.5 ;
+}
+.loadMore:focus {
+box-shadow: inset 0 3px 5px 0 rgba(0, 0, 0, 0.2);
+}
+.decrecCart{
+  font-weight: bold;
+
+  box-shadow: inset 0 -4px rgba(0, 0, 0, 0.2);
+}
+.decrecCart:hover {
+box-shadow: inset 0 -4px 0 0 rgba(0, 0, 0, 0.6) 0 0 8px 0 rgba(0,0,),0.5 ;
+}
+.decrecCart:focus {
+box-shadow: inset 0 3px 5px 0 rgba(0, 0, 0, 0.2);
+}
